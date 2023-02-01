@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "designery",
   "version": "0.1.0",
-  "description": "Nextly Landing Page Template",
+  "description": "Designery template enterprise",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,15 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gituhb.com/web3templates/nextly-template"
+    "url": "https://github.com/SofianeDmt/designery"
   },
-  "keywords": [
-    "nextjs",
-    "tailwindcss",
-    "free"
-  ],
-  "author": "Surjith S M",
-  "license": "ISC",
+  "author": "Sofiane Demette",
   "dependencies": {
     "@emotion/css": "^11.1.3",
     "@emotion/react": "^11.4.0",
@@ -27,10 +21,11 @@
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
     "@tailwindcss/aspect-ratio": "^0.2.1",
-    "next": "^11.1.0",
+    "eslint-config-next": "^13.1.6",
+    "next": "^13.1.6",
     "next-themes": "^0.0.14",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.8.3"
   },
   "devDependencies": {
