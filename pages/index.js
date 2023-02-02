@@ -30,12 +30,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Designery</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Designery est une agence de création de contenu digital orienter web"
         />
-        <link rel="icon" href="/favicon.ico" />
+          <link rel="shortcut icon" href="/favicon/favicon.ico" />
+          <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon/favicon.ico"/>
+              <link rel="apple-touch-icon" sizes="152x152" href="/favicon/favicon-152-precomposed.png"/>
+                  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/favicon-144-precomposed.png"/>
+                      <link rel="apple-touch-icon" sizes="120x120" href="/favicon/favicon-120-precomposed.png"/>
+                          <link rel="apple-touch-icon" sizes="114x114" href="/favicon/favicon-114-precomposed.png"/>
+                              <link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon-180-precomposed.png"/>
+                                  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/favicon-72-precomposed.png"/>
+                                      <link rel="apple-touch-icon" sizes="57x57" href="/favicon/favicon-57.png"/>
+                                          <link rel="icon" sizes="32x32" href="/favicon/favicon-32.png" />
+
       </Head>
 
       <Navbar />
