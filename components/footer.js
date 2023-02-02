@@ -33,7 +33,7 @@ export default function Footer() {
                 <a className="flex items-center justify-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                   <span>
                     <img
-                        src={theme === "dark" ? "/img/logoDesignery.svg" : "/img/brand_logo.svg"}
+                        src={theme === "dark" ? "/img/LogoDesignery.svg" : "/img/brand_logo.svg"}
                       alt="N"
                       width="32"
                       height="32"
