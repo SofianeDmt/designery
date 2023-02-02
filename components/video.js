@@ -27,7 +27,7 @@ export default function Video() {
           )}
           {playVideo && (
             <iframe
-                src="/trailer_designery.mp4"
+                src="/video/trailer_designery.mp4"
               title="Video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
