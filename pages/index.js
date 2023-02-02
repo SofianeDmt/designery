@@ -58,21 +58,17 @@ export default function Home() {
       </SectionTitle>
         <div className="mt-14">
         </div>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits ClassName="" data={benefitOne} />
+      <Benefits ClassName="mt-48 scale-125 ml-28" imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Trailer video"
-        title="Presentation de projets">
+        title="Comment ça marche">
           Du petit commerce au grand groupe, nous avons travaillé dans de multiples secteurs. Nous sommes fiers des projets que nous avons pu mener à bien et sommes honoré de vous les présentés.
       </SectionTitle>
       <Video />
         <Pricing/>
         <Container>
             <div className="flex flex-col justify-center">
-                {/*          <div className="text-xl text-center text-gray-700 dark:text-white">
-            Il m'ont <span className="text-indigo-600">dèja</span>{" "}
-            fait confiance
-          </div>*/}
 
                 <div className="flex flex-wrap justify-center gap-5 -mt-10 md:justify-around">
                     <div className="pt-2 text-gray-400 dark:text-gray-400">

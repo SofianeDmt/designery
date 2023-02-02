@@ -22,29 +22,33 @@ export default function Pricing() {
                         <img src="https://res.cloudinary.com/williamsondesign/abstract-1.jpg" alt=""
                              className="rounded-3xl w-20 h-20"/>
                         <div className="ml-5">
-                            <span className="block text-2xl font-semibold text-black">Basic</span>
-                            <span><span className="font-medium text-gray-500 text-xl align-top">$&thinsp;</span><span
-                                className="text-3xl font-bold text-black">10 </span></span><span
-                            className="text-gray-500 font-medium">/ user</span>
+                            <span className="block text-2xl font-semibold text-black">Web</span>
+                            <span><span className="font-medium text-gray-500 text-xl align-top">€&thinsp;</span><span
+                                className="text-3xl font-bold text-black">350 </span></span><span
+                            className="text-gray-500 font-medium text-xs">à partir de</span>
                         </div>
                     </div>
                     <ul className="mb-7 font-medium text-gray-500">
                         <li className="flex text-lg mb-2">
                             <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
-                            <span className="ml-3">Get started with <span className="text-black">messaging</span></span>
+                            <span className="ml-3">Site internet a l'image de votre <span className="text-black">business</span></span>
                         </li>
                         <li className="flex text-lg mb-2">
                             <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
-                            <span className="ml-3">Flexible <span className="text-black">team meetings</span></span>
+                            <span className="ml-3">Optimisé pour le référencements <span className="text-black">SEO Google</span></span>
                         </li>
                         <li className="flex text-lg">
                             <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
-                            <span className="ml-3"><span className="text-black">5 TB</span> cloud storage</span>
+                            <span className="ml-3">Nom de domaine offert pendant <span className="text-black">1 ans</span></span>
+                        </li>
+                        <li className="flex my-3 text-lg">
+                            <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
+                            <span className="ml-3">Solution adapté a <span className="text-black">tout les écrans</span></span>
                         </li>
                     </ul>
-                    <a href="#/"
+                    <a href="mailto:sofiane.dmt@hotmail.fr?subject=Web Plan"
                        className="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl hover:scale-110">
-                        Choose Plan
+                        Choisir cette solution
                         <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" className="ml-2"/>
                     </a>
                 </div>
@@ -55,29 +59,37 @@ export default function Pricing() {
                         <img src="https://res.cloudinary.com/williamsondesign/abstract-2.jpg" alt=""
                              className="rounded-3xl w-20 h-20"/>
                         <div className="ml-5">
-                            <span className="block text-3xl font-semibold text-white">Startup</span>
-                            <span><span className="font-medium text-xl align-top">$&thinsp;</span><span
-                                className="text-3xl font-bold text-white">24 </span></span><span
-                            className="font-medium">/ user</span>
+                            <span className="block text-3xl font-semibold text-white">Ultime</span>
+                            <span><span className="font-medium text-gray-500 text-xl align-top">€&thinsp;</span><span
+                                className="text-3xl font-bold text-white">1 900 </span></span><span
+                            className="text-gray-500 font-medium text-xs">à partir de</span>
                         </div>
                     </div>
                     <ul className="mb-10 font-medium text-xl">
                         <li className="flex mb-6">
                             <img src="https://res.cloudinary.com/williamsondesign/check-white.svg"/>
-                            <span className="ml-3">All features in <span className="text-white">Basic</span></span>
+                            <span className="ml-3">Une image digital complète pour votre <span className="text-white">business</span></span>
                         </li>
-                        <li className="flex mb-6">
+                        <li className="flex my-3">
                             <img src="https://res.cloudinary.com/williamsondesign/check-white.svg"/>
-                            <span className="ml-3">Flexible <span className="text-white">call scheduling</span></span>
+                            <span className="ml-3">Web & Mobile <span className="text-white">inclus</span></span>
                         </li>
-                        <li className="flex">
+                        <li className="flex my-3">
                             <img src="https://res.cloudinary.com/williamsondesign/check-white.svg"/>
-                            <span className="ml-3"><span className="text-white">15 TB</span> cloud storage</span>
+                            <span className="ml-3"><span className="text-white">Charte graphique</span> & Kit <span className="text-white">marketing</span></span>
+                        </li>
+                        <li className="flex my-3">
+                            <img src="https://res.cloudinary.com/williamsondesign/check-white.svg"/>
+                            <span className="ml-3">Panneaux de <span className="text-white">contrôle</span></span>
+                        </li>
+                        <li className="flex my-3">
+                            <img src="https://res.cloudinary.com/williamsondesign/check-white.svg"/>
+                            <span className="ml-3">Suivis et mise a jour <span className="text-white">incluse</span></span>
                         </li>
                     </ul>
-                    <a href="#/"
+                    <a href="mailto:sofiane.dmt@hotmail.fr?subject=Ultime Plan"
                        className="flex justify-center items-center bg-indigo-600 rounded-xl py-6 px-4 text-center text-white text-2xl hover:scale-110">
-                        Choose Plan
+                        Choisir cette solution
                         <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" className="ml-2"/>
                     </a>
                 </div>
@@ -88,29 +100,33 @@ export default function Pricing() {
                         <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg" alt=""
                              className="rounded-3xl w-20 h-20"/>
                         <div className="ml-5">
-                            <span className="block text-2xl font-semibold text-black">Enterprise</span>
-                            <span><span className="font-medium text-gray-500 text-xl align-top">$&thinsp;</span><span
-                                className="text-3xl font-bold text-black">35 </span></span><span
-                            className="text-gray-500 font-medium">/ user</span>
+                            <span className="block text-2xl font-semibold text-black">Mobile</span>
+                            <span><span className="font-medium text-gray-500 text-xl align-top">€&thinsp;</span><span
+                                className="text-3xl font-bold text-black">1 150 </span></span><span
+                            className="text-gray-500 font-medium text-xs">à partir de</span>
                         </div>
                     </div>
                     <ul className="mb-7 font-medium text-gray-500">
                         <li className="flex text-lg mb-2">
                             <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
-                            <span className="ml-3">All features in <span className="text-black">Startup</span></span>
+                            <span className="ml-3">Application mobile a l'image de votre <span className="text-black">business</span></span>
                         </li>
                         <li className="flex text-lg mb-2">
                             <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
-                            <span className="ml-3">Growth <span className="text-black">oriented</span></span>
+                            <span className="ml-3">Optimisé pour le respecter les conditions <span className="text-black">AppStore</span> & <span className="text-black">PlayStore</span></span>
                         </li>
                         <li className="flex text-lg">
                             <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
-                            <span className="ml-3"><span className="text-black">Unlimited</span> cloud storage</span>
+                            <span className="ml-3">Fonctionne sur <span className="text-black">IOS</span> & <span className="text-black">Android</span></span>
+                        </li>
+                        <li className="flex my-3 text-lg">
+                            <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg"/>
+                            <span className="ml-3">Solution adapté a <span className="text-black">tout les écrans</span></span>
                         </li>
                     </ul>
-                    <a href="#/"
+                    <a href="mailto:sofiane.dmt@hotmail.fr?subject=Mobile Plan"
                        className="flex justify-center items-center bg-indigo-600 rounded-xl py-5 px-4 text-center text-white text-xl hover:scale-110">
-                        Choose Plan
+                        Choisir cette solution
                         <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" className="ml-2"/>
                     </a>
                 </div>

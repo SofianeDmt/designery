@@ -22,16 +22,16 @@ export default function Video() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="sr-only">Play Video</span>
+              <span className="sr-only">Regarder</span>
             </button>
           )}
           {playVideo && (
             <iframe
-              src="https://www.youtube-nocookie.com/embed/aOq49euWnIo?controls=0&autoplay=1"
-              title="YouTube video player"
-              frameborder="0"
+                src="/trailer_designery.mp4"
+              title="Video player"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+                allowFullScreen></iframe>
           )}
         </div>
       </div>

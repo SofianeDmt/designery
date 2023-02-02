@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import {ClassNames} from "@emotion/react";
 
 export default function Benefits(props) {
   const { data } = props;
@@ -12,7 +13,7 @@ export default function Benefits(props) {
           className={`flex items-center justify-center w-full lg:w-1/2 hidden lg:block ${
             props.imgPos === "right" ? "lg:order-1" : ""
           }`}>
-          <div>
+          <div className={props?.ClassName}>
             <Image
               src={data.image}
               width="521"

@@ -36,25 +36,25 @@ export default function Faq() {
 const faqdata = [
   {
     question: "Qu'est ce que le SEO?",
-    answer: "Yes, this template is completely free to use.",
+    answer: "SEO, ce terme défini l'ensemble des techniques mises en œuvre pour améliorer la position d'un site web sur les pages de résultats des moteurs de recherche. On l'appelle aussi référencement naturel.",
   },
   {
     question: "Est-il possible d'héberger soi même sont site internet?",
-    answer: "Yes, this you can.",
+    answer: "Oui, il est possible de passer commande chez notre agence et d'héberger soit même le projet. Nous livrons le projet prêt a l'emploi dans nos pack, pourquoi ne pas en profitez?.",
   },
   {
     question: "Qui êtes-vous? ",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Je m'appelle Sofiane Demette, je suis originaire du nord de la France et passionné par l'informatique et la culture du jeu vidéo depuis mon plus jeune âge. J'ai toujours eu cette passion, qui, à l'époque, n'était pas mon métier, et quand l'opportunité a était présente je me suis lancer dans des etudes pour avoir un diplôme et être certifié par l'état.",
   },
   {
     question: "Quel est le délais de livraison d'un projet en général?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Le delai moyen de livraison d'un projet varie énormement selon la demande et l'ampleur du travail mais pour un site vitrine ou un petit CMS simple, il faut compter 1 semaine de delai.",
   },
   {
     question: "Peut on avoir plusieurs site web?",
     answer:
-        "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+        "Oui, il est possible d'avoir plusieurs site web sur le même serveur et il est également possible d'avoir plusieurs sous domaine (ex: www.monsite.com -> www.test.monsite.com). Cela permet de fragmenter sont site internet tout en payant un seul nom de domaine.",
   },
 ];

@@ -82,8 +82,8 @@ export default function Navbar() {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation2.map((item, index) => (
-                      <Link legacyBehavior key={index} href="/">
-                        <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700 items-center flex justify-center">
+                      <Link legacyBehavior key={index} href={`#${item}`}>
+                        <a href={`#${item}`} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700 items-center flex justify-center">
                           {item}
                         </a>
                       </Link>
