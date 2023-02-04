@@ -40,7 +40,7 @@ const faqdata = [
   },
   {
     question: "Est-il possible d'héberger soi même sont site internet?",
-    answer: "Oui, il est possible de passer commande chez notre agence et d'héberger soit même le projet. Nous livrons le projet prêt a l'emploi dans nos pack, pourquoi ne pas en profitez?.",
+    answer: "Oui, il est possible de passer commande chez notre agence et d'héberger soit même le projet. Nous livrons le projet prêt a l'emploi dans nos packs, pourquoi ne pas en profiter? ..",
   },
   {
     question: "Qui êtes-vous? ",
@@ -50,11 +50,11 @@ const faqdata = [
   {
     question: "Quel est le délais de livraison d'un projet en général?",
     answer:
-      "Le delai moyen de livraison d'un projet varie énormement selon la demande et l'ampleur du travail mais pour un site vitrine ou un petit CMS simple, il faut compter 1 semaine de delai.",
+      "Le délai moyen de livraison d'un projet varie énormément selon la demande et l'ampleur du travail mais pour un site vitrine où un petit CMS simple, il faut compter 1 semaine de délai.",
   },
   {
     question: "Peut on avoir plusieurs site web?",
     answer:
-        "Oui, il est possible d'avoir plusieurs site web sur le même serveur et il est également possible d'avoir plusieurs sous domaine (ex: www.monsite.com -> www.test.monsite.com). Cela permet de fragmenter sont site internet tout en payant un seul nom de domaine.",
+        "Oui, il est possible d'avoir plusieurs sites web sur le même serveur et il est également possible d'avoir plusieurs sous-domaines (ex: www.monsite.com -> www.test.monsite.com). Cela permet de fragmenter son site internet tout en payant un seul nom de domaine.",
   },
 ];

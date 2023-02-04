@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       <SectionTitle
         pretitle="Ce dont vous avez besoin"
-        title="A toutes demandes nous avons la solution a apporté">
+        title="À toutes demandes nous avons la solution à apporter">
       </SectionTitle>
         <div className="mt-14">
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
       <SectionTitle
         pretitle="Trailer video"
         title="Comment ça marche">
-          Du petit commerce au grand groupe, nous avons travaillé dans de multiples secteurs. Nous sommes fiers des projets que nous avons pu mener à bien et sommes honoré de vous les présentés.
+          Du petit commerce au grand groupe, nous avons travaillé dans de multiples secteurs. Nous sommes fiers des projets que nous avons pu mener à bien et sommes honorés de vous les présenter.
       </SectionTitle>
       <Video />
         <Pricing/>

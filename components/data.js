@@ -12,17 +12,17 @@ import benefitTwoImg from "../public/img/solutions2.svg";
 
 const benefitOne = {
   title: "Ce que nous proposons",
-  desc: "De la conception web a l’intégration en passant par le design, nous essayons de combler un maximum de point clés pour la réussite de votre projet.",
+  desc: "De la conception web à l’intégration en passant par le design, nous essayons de combler un maximum de points-clés pour la réussite de votre projet.",
   image: benefitOneImg,
   bullets: [
     {
       title: "Solution E-commerce",
-      desc: "Des solutions de E-commerce pour facilité les entreprises lors de la conception de leur boutique en ligne.",
+      desc: "Des solutions d'E-commerce pour faciliter les entreprises lors de la conception de leur boutique en ligne.",
       icon: <EmojiHappyIcon />,
     },
     {
       title: "UI / UX Design",
-      desc: "Le design de vos logo et de votre image de marque (fyers, logo, publicité …)",
+      desc: "Le design de vos logos et de votre image de marque (foyers, logo, publicité …).",
       icon: <ChartSquareBarIcon />,
     },
     {
@@ -34,8 +34,8 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "A toutes demandes nous avons la solution a apporté",
-  desc: "Un bon site web passe avant tout par un une bonne élaboration du projet. Nous prenons le temps necessaire pour reunir toute les informations et vous proposer un rendu de qualité conforme a notre engagements.",
+  title: "À toutes demandes nous avons la solution à apporter",
+  desc: "Un bon site web passe avant tout par un une bonne élaboration du projet. Nous prenons le temps nécessaire pour réunir toutes les informations et vous proposer un rendu de qualité conforme à notre engagement.",
   image: benefitTwoImg,
   bullets: [
     {
@@ -45,7 +45,7 @@ const benefitTwo = {
     },
     {
       title: "UI/UX Design",
-      desc: "Maquetter l’application, designer le logo, choisir la bonne palette de couleur, nos designer sont la pour vous aiguiller.",
+      desc: "Maquetter l’application, designer le logo, choisir la bonne palette de couleurs, nos designers sont là pour vous aiguiller.",
       icon: <AdjustmentsIcon />,
     },
     {
