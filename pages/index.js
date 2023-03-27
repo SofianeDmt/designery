@@ -13,6 +13,7 @@ import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 import Pricing from "../components/pricing";
 import Container from "../components/container";
+import Stats from "../components/stats";
 
 //import dynamic from "next/dynamic";
 
@@ -47,10 +48,10 @@ export default function Home() {
                                           <link rel="icon" sizes="32x32" href="/favicon/favicon-32.png" />
 
       </Head>
-
+        <div id={0}></div>
       <Navbar />
       <Hero />
-        <div className="mt-5">
+        <div id={2} className="mt-5">
         </div>
       <SectionTitle
         pretitle="Ce dont vous avez besoin"
@@ -67,7 +68,7 @@ export default function Home() {
       </SectionTitle>
       <Video />
         <Pricing/>
-        <Container>
+{/*        <Container>
             <div className="flex flex-col justify-center">
 
                 <div className="flex flex-wrap justify-center gap-5 -mt-10 md:justify-around">
@@ -88,7 +89,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </Container>
+        </Container>*/}
+        <Stats/>
         <div className="mt-14">
         </div>
       <SectionTitle
@@ -97,6 +99,7 @@ export default function Home() {
         Les avis de nos clients sont les plus importants et nous permettent de nous améliorer et d'améliorer nos services.
       </SectionTitle>
       <Testimonials />
+        <div id={4}></div>
       <SectionTitle pretitle="FAQ" title="Les questions fréquente">
         Vous aurez possiblement la réponses a votre question ci dessous.
       </SectionTitle>

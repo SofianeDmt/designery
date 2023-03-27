@@ -10,7 +10,7 @@ export default function Footer() {
     "Clients",
     "Produits",
     "Solutions",
-    "L'entreprise",
+    "FAQ",
   ];
 
   const [mounted, setMounted] = useState(false);
@@ -69,7 +69,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full justify-center items-center -mt-2 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link legacyBehavior key={index} href="/">
+                <Link legacyBehavior key={index} href={`#${index}`}>
                   <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700 justify-center items-center flex text-center">
                     {item}
                   </a>
@@ -92,28 +92,21 @@ export default function Footer() {
             <div>Suivez nous</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="https://twitter.com/web3templates"
+                href="https://twitter.com/sofianedmt"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a>
               <a
-                href="https://facebook.com/web3templates"
-                target="_blank"
-                rel="noopener">
-                <span className="sr-only">Facebook</span>
-                <Facebook />
-              </a>
-              <a
-                href="https://instagram.com/web3templates"
+                href="https://www.instagram.com/sofianedmt/"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://linkedin.com/in/sofianedmt"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Linkedin</span>

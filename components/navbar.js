@@ -10,7 +10,7 @@ export default function Navbar() {
     "Clients",
     "Produits",
     "Solutions",
-    "L'entreprise",
+    "FAQ",
   ];
 
   const navigation2 = [
@@ -19,7 +19,7 @@ export default function Navbar() {
     "Clients",
     "Produits",
     "Solutions",
-    "L'entreprise",
+    "FAQ",
   ];
 
   const [mounted, setMounted] = useState(false);
@@ -82,13 +82,13 @@ export default function Navbar() {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation2.map((item, index) => (
-                      <Link legacyBehavior key={index} href={`#${item}`}>
+                      <Link legacyBehavior key={index} href={`#${index}`}>
                         <a href={`#${item}`} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700 items-center flex justify-center">
                           {item}
                         </a>
                       </Link>
                     ))}
-                    <Link legacyBehavior href="/">
+                    <Link legacyBehavior href="mailto:sofiane.dmt@hotmail.fr">
                       <a className="w-full px-6 py-2 mt-3 text-center text-white bg-black dark:text-black dark:bg-white rounded-md lg:ml-5">
                         Nous contactez
                       </a>
@@ -107,8 +107,8 @@ export default function Navbar() {
         <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
-              <li className="mr-3 nav__item" key={index}>
-                <Link legacyBehavior href="/">
+              <li className="mr-3 nav__item" key={index} >
+                <Link legacyBehavior href={`#${index}`}>
                   <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
                     {menu}
                   </a>
@@ -119,7 +119,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link legacyBehavior href="/">
+          <Link legacyBehavior href="mailto:sofiane.dmt@hotmail.fr">
             <a className="px-6 py-2 text-white bg-black dark:text-black dark:bg-white rounded-md md:ml-5">
               Nous contactez
             </a>
